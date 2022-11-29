@@ -1,0 +1,24 @@
+.landing-container{
+     background-image:url('https://wallpaperaccess.com/full/3143169.jpg');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.button-home{
+   
+    
+    padding: 100px 300px 100px 300px;
+    background-color:#411E46 ;
+    border-radius: 10px;
+}
+
+.title-landing{
+    color: white;
+    text-align: center;
+}
+

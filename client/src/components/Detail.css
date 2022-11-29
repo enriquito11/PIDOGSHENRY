@@ -1,0 +1,97 @@
+.detail-card{
+    margin-top: 20px;
+    margin-left: 630px;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 10px 10px;
+    height: 100%;
+    width: 500px;
+    backdrop-filter: blur(20px);
+    background-color: #411E46;
+    padding-bottom: 10px;
+    filter: sepia(0.3);
+
+    
+}
+
+.detail-card img{
+    height: 350px;
+    width: 500px;
+    border-radius: 10px 10px 0px 0px;
+    align-items: center;
+    object-fit: cover;
+}
+
+.detail-card h2{
+    text-align: center;
+    color: white;
+}
+
+.detail-card h4{
+    margin-left: 10px;
+    color: white;
+    text-align: center;
+}
+
+.detail-card p{
+    margin-left: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+
+.main-detail{
+    background-image:url('https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.loader-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home_create_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-detail{
+    display: inline-block;
+    padding: 8px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #5e4caf;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.create-detail{
+    display: inline-block;
+    padding: 8px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #5e4caf;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+}

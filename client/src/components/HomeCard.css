@@ -1,0 +1,39 @@
+.card-container{
+    background-color: #411E46;
+    width: 400px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    filter: sepia(0.3);
+    height: 550px;
+    margin-bottom: 20px;
+
+}
+
+.card-container img{
+width: 400px;
+height: 300px;
+object-fit: cover;
+border-radius: 10px 10px 0px 0px;
+}
+
+.card-container h4{
+    color: white;
+    margin-left: 10px;
+    text-align: center;
+}
+.card-container p{
+    color: white;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.card-container:hover{
+    filter:sepia(0);
+    transform: scale(1.03);
+    transition: 500ms;
+}

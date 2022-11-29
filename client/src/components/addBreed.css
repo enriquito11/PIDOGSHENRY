@@ -1,0 +1,42 @@
+.form-div-zero {
+    background-image:url('https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.form-div-zero form {
+    
+   margin-top: 20px;
+   
+    width: 600px;
+   
+
+    border: solid rgb(19, 2, 36) 2px;
+    border-radius: 10px;
+}
+
+.div-form{
+    display: grid;
+    grid-template-columns: 50% auto;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #411E46;
+    color: white;
+    width: 600px;
+    height: 700px;
+    margin-top: 10px;
+    
+   
+}
+
+.div-form label{
+    text-align:center;
+}
+
+.displayTemps{
+    text-align: center;
+    border-radius: 10px;
+    
+}
